@@ -1,0 +1,27 @@
+.footercard {
+  width: 1366px;
+  height: 376px;
+  top: 1517px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 48px;
+  padding-right: 80px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background-color: #003f00;
+  color: #ffffff;
+}
+.imgcard {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footercarddetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

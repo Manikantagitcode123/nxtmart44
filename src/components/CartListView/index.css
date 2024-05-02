@@ -1,0 +1,9 @@
+.cart-list {
+  padding-left: 0px;
+}
+.cart_total_bg {
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d8d8d8;
+}

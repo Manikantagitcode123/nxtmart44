@@ -1,0 +1,99 @@
+.bg_container {
+  width: 1366px;
+  height: 1896px;
+}
+
+.homecard {
+  display: flex;
+  width: 100vw;
+  height: 1371px;
+}
+.categoriecard {
+  overflow: auto;
+  width: 300px;
+}
+.productcard {
+  overflow: auto;
+  width: 1066px;
+}
+.loadercard {
+  height: 622px;
+  width: 1366px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.retrybtn {
+  width: 93px;
+  height: 44px;
+  border-radius: 8px;
+  border-width: 0px;
+
+  gap: 8px;
+  background-color: #088c03;
+  color: #ffffff;
+}
+.failure_card {
+  height: 622px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.allbtn {
+  background-color: #ffffff;
+  border-width: 0px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+.categoriestext {
+  width: 174px;
+  height: 32px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 70px;
+  color: #088c03;
+}
+.applybgcolor {
+  background-color: #088c03;
+  color: #ffffff;
+  border-width: 0px;
+
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.homeheaderformb {
+  display: block;
+}
+.formbl {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .homeheaderformb {
+    display: none;
+  }
+  .formbl {
+    display: block;
+  }
+  .bg_container {
+    width: 360px;
+    height: 800px;
+  }
+}
